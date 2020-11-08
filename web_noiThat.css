@@ -140,7 +140,7 @@ color: aliceblue;
   margin-top: 30px;
 }
 .photo img{
-  padding-left: 29px;
+  padding-left: 26px;
   width: 100%;
 }
 .photo{
@@ -161,6 +161,7 @@ color: aliceblue;
 .noithat{
   text-align: center;
   color: orange;
+  margin-top: 30px;
 }.menu3 a{
   text-decoration: none;
   margin: 0 5px;
@@ -174,4 +175,9 @@ color: aliceblue;
 }
 .menu3{
  margin-top: 10px;
+}
+.phongkhach{
+  width: 600px;
+  margin-left: 102px;
+  margin-top: 20px;
 }
