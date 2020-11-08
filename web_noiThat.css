@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+  color: black;
+  background-color: white;
+  text-rendering: optimizeLegibility;
+}
+.a td a {
+  text-decoration: none;
+  border:0px solid;
+    padding:10px 30px; 
+
+    resize:both;
+    overflow:auto;
+
+}
+.a td a:hover,
+.a td a:active{
+color: aliceblue;
+    
+}
+.nd1 {
+  color: orange;
+  float: left;
+}
+.jmg1 {
+  width: 100px;
+  float: left;
+}
+
+.tk {
+  padding-top: 10px;
+  float: left;
+}
+.tk {
+  padding-left: 100px;
+}
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.nd2{
+    padding-left: 300px;
+}
+.maker{
+    padding-left: 50px;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: orange;
+    border-radius: 20px;
+    padding: 5px 15px;
+    text-align: center;
+    transition: all.1s;
+    margin-left: 40px;
+}
+.maker:hover,
+.maker:active{
+    background-color: orangered;
+    color: black;
+}
+.tk2{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: orange;
+    padding: 5px 15px;  
+    text-align: center;
+    transition: all.1s;
+    height: 30px;
+    
+  
+}
+.tk2:hover,
+.tk2:active{background-color: orangered;
+    color: black;
+}
+
+.menu{
+  text-decoration: none;
+    background-color: rgb(0, 109, 128);
+    font-size: 80%;
+    text-align: center;
+    color: aliceblue;
+    
+}
+.menu a{
+  text-decoration: none;
+  color: black;
+}
+.menu:hover,
+.menu:active{ background-color: rgb(0, 128, 90);
+    color: black;
+
+}
+.promotion{
+    font-size: 80%;
+    text-align: center;
+}
+.time{
+    font-size: 80%;
+    text-align: center;
+    color: aliceblue;
+    border:0px solid;
+    padding:10px 30px; 
+
+    resize:both;
+    overflow:auto;
+}
+.time:hover,
+.time:active{
+    color: black;
+}
+.tk1{
+    height: 27px;
+}
+.note{
+    margin-top: 20px;
+}
+.table{
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+.menu2 a{
+  text-decoration: none;
+  margin: 0 5px;
+  background-color: white;
+ 
+  color: orange;
+}
+.menu2 a:hover,
+.menu2 a:active{
+  background-color: rgb(165, 81, 42);
+}
+.menu2{
+  margin-left: 70px;
+  margin-top: 30px;
+}
+.photo img{
+  padding-left: 29px;
+  width: 100%;
+}
+.photo{
+  text-align: center; 
+  margin-top: 40px;
+  display: inline-block;
+  
+ 
+}
+.font{
+  font-size: 60%;
+  text-decoration: none;
+}
+.font:hover,
+.font:active{
+  color: orange;
+}
+.noithat{
+  text-align: center;
+  color: orange;
+}.menu3 a{
+  text-decoration: none;
+  margin: 0 5px;
+  background-color: white;
+  
+  color: orange;
+}
+.menu3 a:hover,
+.menu3 a:active{
+  background-color: rgb(165, 81, 42);
+}
+.menu3{
+ margin-top: 10px;
+}
