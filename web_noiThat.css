@@ -13,7 +13,6 @@ html {
   text-decoration: none;
   border:0px solid;
     padding:10px 30px; 
-
     resize:both;
     overflow:auto;
 
@@ -180,4 +179,51 @@ color: aliceblue;
   width: 600px;
   margin-left: 102px;
   margin-top: 20px;
+}
+.phongan{
+  color: orange;
+  text-align: center;
+  margin-top: 25px;
+}
+.menu4 a{
+  
+  text-decoration: none;
+  margin: 0 5px;
+  background-color: white;
+  
+  color: orange;
+}
+.menu4 a:hover,
+.menu4 a:active{
+  background-color: rgb(165, 81, 42);
+}
+.menu4{
+  text-align: center;
+  margin-top: 10px;
+}
+.note2{
+  background-color: rgb(56, 11, 11);
+  color: orange;
+}
+.giakhanh{
+  margin-top: 20px;
+}
+.name{
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+.showroom{
+  margin-bottom: 10px;
+}
+.sum{
+margin-left: 80px;
+}
+.comebank{
+  background-color: #ffa07a ;
+  margin-top: 15px;
+}
+.comebank a{
+  text-decoration: none;
+  text-align: center;
+  color: brown;
 }
