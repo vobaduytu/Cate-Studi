@@ -47,7 +47,7 @@ html {
   padding-left: 50px;
   text-decoration: none;
   color: aliceblue;
-  background-color: orange;
+  background-color: rgb(228, 186, 82);
   border-radius: 20px;
   padding: 5px 15px;
   text-align: center;
@@ -57,31 +57,31 @@ html {
 }
 .maker:hover,
 .maker:active {
-  background-color: orangered;
+  background-color: orange;
   color: black;
 }
 .tk2 {
   text-decoration: none;
   color: aliceblue;
-  background-color: orange;
-  padding: 4.5px 15px;
+  background-color: rgb(228, 186, 82);
+  padding: 4.52px 15px;
   text-align: center;
   transition: all.1s;
   height: 30px;
   position: relative;
-  top: 7.05px;
+  top: 7.15px;
   right: 4.7px;
 }
 
 .tk2:hover,
 .tk2:active {
-  background-color: orangered;
+  background-color: orange;
   color: black;
 }
 
 .menu {
   text-decoration: none;
-  background-color: rgb(0, 109, 128);
+  background-color:rgb(228, 186, 82);
   font-size: 80%;
   text-align: center;
   color: aliceblue;
@@ -92,7 +92,7 @@ html {
 }
 .menu:hover,
 .menu:active {
-  background-color: rgb(0, 128, 90);
+  background-color: rgb(33, 160, 122);
   color: black;
 }
 .promotion {
@@ -115,7 +115,8 @@ html {
 }
 .tk1 {
   height: 27px;
-  padding-bottom: 12px;
+  position: relative;
+  bottom: -6px;
 }
 .table {
   margin-top: 0;
