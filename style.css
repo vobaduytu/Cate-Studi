@@ -275,7 +275,7 @@ html {
   background-color: black;
   color: white;
   height: 200px;
-  border-bottom: 1px solid wheat;
+  border-bottom: 1px solid  rgb(44, 35, 17);
 }
 .amThuc {
   position: relative;
