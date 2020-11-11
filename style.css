@@ -3,14 +3,14 @@
   padding: 0;
 }
 html {
-  font-family: "Dancing Script", cursive;
+  font-family: Optima;
   color: black;
   background-color: white;
   text-rendering: optimizeLegibility;
 }
 .note {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: black;
   height: 40px;
 }
@@ -21,7 +21,7 @@ html {
 }
 .note2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   border: 1px solid rgb(99, 95, 95);
   height: 40px;
   transform: translateY(-3px);
@@ -71,14 +71,14 @@ html {
 }
 .note3 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 60px;
   padding-top: 20px;
   border-bottom: 1px solid rgb(99, 95, 95);
 }
 .menu {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 60px;
   position: sticky;
   top: 0;
@@ -254,12 +254,11 @@ html {
   color: rgb(31, 31, 20);
 }
 .end {
-  display: flex;
-  justify-content: space-between;
   background-color: black;
   color: white;
-  height: 200px;
+  height: 70px;
   border-bottom: 1px solid rgb(44, 35, 17);
+  
 }
 .end p {
   font-size: 150%;
@@ -267,25 +266,24 @@ html {
 }
 .icon {
   position: relative;
-  bottom: -20px;
+  bottom: 40px;
 }
 .end2 {
-  display: flex;
-  justify-content: space-between;
   background-color: black;
   color: white;
   height: 200px;
-  border-bottom: 1px solid  rgb(44, 35, 17);
+  border-bottom: 1px solid rgb(44, 35, 17);
+  margin-top: 70px;
 }
-.amThuc {
+.end2 p{
   position: relative;
-  top: 50px;
+  top: 17px;
 }
 .end3 {
   background-color: black;
   color: white;
   height: 70px;
-  line-height: 70px;
+ 
   font-size: 20px;
 }
 
@@ -321,7 +319,4 @@ html {
   .img2 p {
     width: 90%;
   }
-  .end {
-    display: none;
-  }
-}
+} 
