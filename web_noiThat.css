@@ -24,6 +24,10 @@ html {
   color: orange;
   float: left;
   font-family: cursive;
+  animation:  animationtest ;
+  animation-duration: 2s;
+  animation-iteration-count: 2;
+  animation-delay: 2s;
 }
 .jmg1 {
   width: 100px;
@@ -54,7 +58,11 @@ html {
   transition: all.1s;
   margin-left: 40px;
   margin-top: 30px;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 2);
+  animation: moveInLeft 3s ease-out;
 }
+
 .maker:hover,
 .maker:active {
   background-color: orange;
@@ -81,7 +89,7 @@ html {
 
 .menu {
   text-decoration: none;
-  background-color:rgb(228, 186, 82);
+  background-color: rgb(228, 186, 82);
   font-size: 80%;
   text-align: center;
   color: aliceblue;
@@ -92,8 +100,8 @@ html {
 }
 .menu:hover,
 .menu:active {
-  background-color: rgb(33, 160, 122);
-  color: black;
+  background-color:  orange;
+  color:black;
 }
 .promotion {
   font-size: 80%;
@@ -244,3 +252,32 @@ footer {
   margin-top: 20px;
   height: 200px;
 }
+@keyframes animationtest {
+  0%{
+      opacity: 0;
+      transform: translate(0, -100px);
+  }
+
+  80%{
+      transform: translate(0, -20px);
+  }
+
+  100%{
+      opacity: 1;
+      transform: translate(0,0)
+  }
+}
+@keyframes moveInLeft {
+  0% {
+      opacity: 0;
+      transform: translateX(-100px);
+  }
+
+  80% {
+      transform: translateX(10px)
+  }
+
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }}
