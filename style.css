@@ -22,14 +22,14 @@ html {
 .note2 {
   display: flex;
   justify-content: space-around;
-  border: 1px solid rgb(99, 95, 95);
-  height: 40px;
+ 
+  height: 50px;
   transform: translateY(-3px);
   box-shadow: 0 5px 20px rgba(0, 0, 0, 2);
   animation: moveInLeft 3s ease-out;
 }
 .note2 h4 {
-  line-height: 40px;
+  line-height: 50px;
 }
 .note2 a {
   text-decoration: none;
@@ -47,6 +47,8 @@ html {
   transform: translateY(-3px);
   box-shadow: 0 5px 20px rgba(0, 0, 0, 2);
   animation: moveInLeft 3s ease-out;
+  position: relative;
+  top: 13px;
 }
 .seach input {
   height: 28px;
@@ -258,7 +260,6 @@ html {
   color: white;
   height: 70px;
   border-bottom: 1px solid rgb(44, 35, 17);
-  
 }
 .end p {
   font-size: 150%;
@@ -275,7 +276,7 @@ html {
   border-bottom: 1px solid rgb(44, 35, 17);
   margin-top: 70px;
 }
-.end2 p{
+.end2 p {
   position: relative;
   top: 17px;
 }
@@ -283,7 +284,7 @@ html {
   background-color: black;
   color: white;
   height: 70px;
- 
+
   font-size: 20px;
 }
 
@@ -292,10 +293,12 @@ html {
   .note {
     display: none;
   }
-  .note2 {
+ 
+  .num {
     display: none;
   }
-  .note3 h1 {
+
+  .note3  {
     display: none;
   }
   .tieuDe {
@@ -317,6 +320,6 @@ html {
     width: 90%;
   }
   .img2 p {
-    width: 90%;
+    width: 89.8%;
   }
-} 
+}
